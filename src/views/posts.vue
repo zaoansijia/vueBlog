@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <ul class="posts">
-      <li v-for="post in posts">
+      <li v-for="post in posts" v-bind:key="post.datetime">
         <h3>{{post.title}}</h3>
         <p>{{post.datetime}}</p>
         <p class="click" v-on:click="read(post.title)">点击阅读>></p>
@@ -39,7 +39,7 @@ export default {
 
 <style lang="css" scoped>
   ul.posts {
-    width: 7.5rem;
+    /* width: 7.5rem; */
     margin: 0 auto;
     padding: 0.4rem 0.8rem;
     list-style: none;

@@ -115,7 +115,7 @@ export default {
    position: absolute;
    top: 40%;
    left: 50%;
-   width: 7.5rem;
+   /* width: 7.5rem; */
    transform: translate(-50%,-50%);
  }
  .header  h1 {
@@ -201,7 +201,7 @@ export default {
    background-color: black;
  }
  nav.navbar > ul.nav {
-   width: 7.5rem;
+   /* width: 7.5rem; */
    height: 100%;
    display: flex;
    margin: 0 auto;

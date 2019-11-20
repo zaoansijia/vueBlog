@@ -37,7 +37,7 @@ export default {
 </script>
 <style lang="css" >
   div.post {
-    width: 7.5rem;
+    /* width: 7.5rem; */
     margin: 0 auto;
     padding: 0.4rem 0.8rem;
     color: #666;
